@@ -1,0 +1,18 @@
+.mainPage-container {
+    height: 450px;
+    background:  linear-gradient(to bottom , #97979b , #bfc1ce71)  ;
+    background-position: right;
+    background-size: contain;
+    padding-top: 200px;
+}
+
+.mainPage-paragraph{
+    width: 450px;
+    margin-top: 12px;
+}
+
+.mainPage-btn{
+    margin-top: 15px;
+    background-color: #8447F9;
+    color: #fff;
+}

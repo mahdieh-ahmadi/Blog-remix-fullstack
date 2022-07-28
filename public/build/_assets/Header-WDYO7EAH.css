@@ -1,0 +1,17 @@
+.mainPage-container {
+    height: 450px;
+    background: url('../../images/mian.jpg')  , linear-gradient(to bottom , #97979b , #bfc1ce71) ;
+    padding-top: 200px;
+}
+
+.mainPage-paragraph{
+    width: 450px;
+    margin-top: 12px;
+}
+
+.mainPage-btn{
+    margin-top: 15px;
+    background-color: #8447F9;
+    color: #fff;
+    border: none;
+}

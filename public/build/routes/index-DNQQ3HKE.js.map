@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:D:\\practice\\Blog-remix-fullstack\\app\\routes\\index.tsx?browser", "../../../app/routes/index.tsx", "../../../app/Components/Main/Header.tsx"],
+  "sourcesContent": ["export { default } from \"D:\\\\practice\\\\Blog-remix-fullstack\\\\app\\\\routes\\\\index.tsx\";", "import Header from \"~/Components/Main/Header\";\n\nexport default function Index() {\n  return (\n    <>\n      <Header />\n    </>\n  );\n}\n", "import './header.css'\r\n\r\nconst Header =  () => {\r\n\r\n    return (\r\n        <div className='container mainPage-container'>\r\n            header\r\n        </div>\r\n    )\r\n}\r\n\r\nexport default Header"],
+  "mappings": ";;;;;;AAAA;;;ACAA;;;ACAA;AAEA,IAAM,SAAU,MAAM;AAElB,SACI,oCAAC,OAAD;AAAA,IAAK,WAAU;AAAA,KAA+B;AAAA;AAMtD,IAAO,iBAAQ;;;ADTA,iBAAiB;AAC9B,SACE,0DACE,oCAAC,gBAAD;AAAA;",
+  "names": []
+}

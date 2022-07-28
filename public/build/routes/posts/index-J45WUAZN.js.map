@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:D:\\practice\\Blog-remix-fullstack\\app\\routes\\posts\\index.tsx?browser", "../../../../app/routes/posts/index.tsx"],
+  "sourcesContent": ["export { default } from \"D:\\\\practice\\\\Blog-remix-fullstack\\\\app\\\\routes\\\\posts\\\\index.tsx\";", "const Posts = () => {\r\n\r\n    return (\r\n        <div>\r\n            posts\r\n        </div>\r\n    )\r\n}\r\n\r\nexport default Posts"],
+  "mappings": ";;;;;;AAAA;;;ACAA;AAAA,IAAM,QAAQ,MAAM;AAEhB,SACI,oCAAC,OAAD,MAAK;AAAA;AAMb,IAAO,gBAAQ;",
+  "names": []
+}

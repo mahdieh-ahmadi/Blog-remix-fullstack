@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:D:\\practice\\Blog-remix-fullstack\\app\\routes\\index.tsx?browser", "../../../app/routes/index.tsx"],
+  "sourcesContent": ["export { default } from \"D:\\\\practice\\\\Blog-remix-fullstack\\\\app\\\\routes\\\\index.tsx\";", "export default function Index() {\n  return (\n   <div>\n    my app\n   </div>\n  );\n}\n"],
+  "mappings": ";;;;;;AAAA;;;ACAA;AAAe,iBAAiB;AAC9B,SACC,oCAAC,OAAD,MAAK;AAAA;",
+  "names": []
+}

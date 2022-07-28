@@ -1,0 +1,4 @@
+.mainPage-container {
+    height: clamp(500px , 60vh , 1000px);
+    background: linear-gradient(to bottom , #97979b , #bfc1ce) ;
+}

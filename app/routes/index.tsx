@@ -1,32 +1,29 @@
+import Header from "~/Components/Main/Header";
+import PostItem from "~/Components/posts/PostItem";
+
+import testImage from '~/images/mian.jpg'
+
 export default function Index() {
   return (
-    <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
-      <h1>Welcome to Remix</h1>
-      <ul>
-        <li>
-          <a
-            target="_blank"
-            href="https://remix.run/tutorials/blog"
-            rel="noreferrer"
-          >
-            15m Quickstart Blog Tutorial
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            href="https://remix.run/tutorials/jokes"
-            rel="noreferrer"
-          >
-            Deep Dive Jokes App Tutorial
-          </a>
-        </li>
-        <li>
-          <a target="_blank" href="https://remix.run/docs" rel="noreferrer">
-            Remix Docs
-          </a>
-        </li>
-      </ul>
-    </div>
+    <>
+      <Header />
+      <div className="container postsExplore-container">
+        <PostItem 
+        description="Lorem ipsum dolor sit amet consectetur adipisicing elit." 
+        id={1} 
+        image={testImage} 
+        title="test" />
+         <PostItem 
+        description="Lorem ipsum dolor sit amet consectetur adipisicing elit." 
+        id={1} 
+        image={testImage} 
+        title="test" />
+         <PostItem 
+        description="Lorem ipsum dolor sit amet consectetur adipisicing elit." 
+        id={1} 
+        image={testImage} 
+        title="test" />
+      </div>
+    </>
   );
 }

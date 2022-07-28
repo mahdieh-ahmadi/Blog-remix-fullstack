@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["browser-route-module:D:\\practice\\Blog-remix-fullstack\\app\\routes\\posts\\$postId.tsx?browser", "../../../../app/routes/posts/$postId.tsx"],
+  "sourcesContent": ["export { default } from \"D:\\\\practice\\\\Blog-remix-fullstack\\\\app\\\\routes\\\\posts\\\\$postId.tsx\";", "import { useParams } from \"@remix-run/react\"\r\n\r\nconst postItem = () => {\r\n    const params = useParams()\r\n\r\n    return (\r\n        <div>\r\n            post detail {params.postId}\r\n        </div>\r\n    )\r\n}\r\n\r\nexport default postItem"],
+  "mappings": ";;;;;;;;;AAAA;;;ACAA;AAEA,IAAM,WAAW,MAAM;AACnB,QAAM,SAAS;AAEf,SACI,oCAAC,OAAD,MAAK,gBACY,OAAO;AAAA;AAKhC,IAAO,iBAAQ;",
+  "names": []
+}
