@@ -142,27 +142,39 @@ __export(routes_exports, {
 });
 
 // app/Components/Main/Header.css
-var Header_default = "/build/_assets/Header-OBXWDGMG.css";
+var Header_default = "/build/_assets/Header-B4HM4VGG.css";
 
 // app/Components/Main/Header.tsx
-var import_react_helmet2 = require("react-helmet"), Header = () => /* @__PURE__ */ React.createElement(React.Fragment, null, /* @__PURE__ */ React.createElement(import_react_helmet2.Helmet, null, /* @__PURE__ */ React.createElement("link", {
+var import_react_helmet2 = require("react-helmet"), import_react4 = require("@remix-run/react");
+
+// app/images/header.jpg
+var header_default = "/build/_assets/header-MP2M65DO.jpg";
+
+// app/Components/Main/Header.tsx
+var Header = () => /* @__PURE__ */ React.createElement(React.Fragment, null, /* @__PURE__ */ React.createElement(import_react_helmet2.Helmet, null, /* @__PURE__ */ React.createElement("link", {
   rel: "stylesheet",
   href: Header_default
 })), /* @__PURE__ */ React.createElement("div", {
   className: "container mainPage-container"
-}, /* @__PURE__ */ React.createElement("h1", {
+}, /* @__PURE__ */ React.createElement("div", {
+  className: "mainPage-container_image"
+}, /* @__PURE__ */ React.createElement("img", {
+  src: header_default
+})), /* @__PURE__ */ React.createElement("h1", {
   className: "main-title"
 }, "Discover Various news, ", /* @__PURE__ */ React.createElement("br", null), " article & podcast"), /* @__PURE__ */ React.createElement("p", {
   className: "paragraph mainPage-paragraph"
-}, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dicta laborum ut, consequuntur ipsum rerum quasi quod ."), /* @__PURE__ */ React.createElement("button", {
+}, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem dicta laborum ut, consequuntur ipsum rerum quasi quod ."), /* @__PURE__ */ React.createElement(import_react4.Link, {
+  to: "/posts"
+}, /* @__PURE__ */ React.createElement("button", {
   className: "btn mainPage-btn"
-}, "explore All"))), Header_default2 = Header;
+}, "explore All")))), Header_default2 = Header;
 
 // app/Components/posts/postItem.css
 var postItem_default = "/build/_assets/postItem-C4LVDAT4.css";
 
 // app/Components/posts/PostItem.tsx
-var import_react_helmet3 = require("react-helmet"), import_react4 = require("@remix-run/react"), PostItem = (props) => /* @__PURE__ */ React.createElement(React.Fragment, null, /* @__PURE__ */ React.createElement(import_react_helmet3.Helmet, null, /* @__PURE__ */ React.createElement("link", {
+var import_react_helmet3 = require("react-helmet"), import_react5 = require("@remix-run/react"), PostItem = (props) => /* @__PURE__ */ React.createElement(React.Fragment, null, /* @__PURE__ */ React.createElement(import_react_helmet3.Helmet, null, /* @__PURE__ */ React.createElement("link", {
   rel: "stylesheet",
   href: postItem_default
 })), /* @__PURE__ */ React.createElement("div", {
@@ -175,7 +187,7 @@ var import_react_helmet3 = require("react-helmet"), import_react4 = require("@re
   className: "secondaryTitle postItem--title"
 }, props.title), /* @__PURE__ */ React.createElement("p", {
   className: "paragraph postItem--paragraph"
-}, props.description), /* @__PURE__ */ React.createElement(import_react4.Link, {
+}, props.description), /* @__PURE__ */ React.createElement(import_react5.Link, {
   to: `/posts/${props.id}`
 }, /* @__PURE__ */ React.createElement("button", {
   className: "btn postItem--btn"
@@ -207,7 +219,7 @@ function Index() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { version: "3cc6bc7a", entry: { module: "/build/entry.client-5SMHP3S4.js", imports: ["/build/_shared/chunk-NYRYRCDI.js", "/build/_shared/chunk-DNEVBLEG.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-ON5BJN7Y.js", imports: ["/build/_shared/chunk-L4KRPGWG.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-6XYSO3LN.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/posts/$postId": { id: "routes/posts/$postId", parentId: "root", path: "posts/:postId", index: void 0, caseSensitive: void 0, module: "/build/routes/posts/$postId-GA7DUYGL.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/posts/index": { id: "routes/posts/index", parentId: "root", path: "posts", index: !0, caseSensitive: void 0, module: "/build/routes/posts/index-J45WUAZN.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, url: "/build/manifest-3CC6BC7A.js" };
+var assets_manifest_default = { version: "7357c354", entry: { module: "/build/entry.client-5SMHP3S4.js", imports: ["/build/_shared/chunk-NYRYRCDI.js", "/build/_shared/chunk-DNEVBLEG.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-ON5BJN7Y.js", imports: ["/build/_shared/chunk-L4KRPGWG.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/index-GY3ZZTOJ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/posts/$postId": { id: "routes/posts/$postId", parentId: "root", path: "posts/:postId", index: void 0, caseSensitive: void 0, module: "/build/routes/posts/$postId-GA7DUYGL.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/posts/index": { id: "routes/posts/index", parentId: "root", path: "posts", index: !0, caseSensitive: void 0, module: "/build/routes/posts/index-J45WUAZN.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, url: "/build/manifest-7357C354.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public\\build", publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
