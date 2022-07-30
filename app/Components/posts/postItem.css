@@ -17,6 +17,11 @@
 .postItem--paragraph{
     margin-top: 0px;
 }
+.postItem--time{
+    font-size: 12px;
+    margin-top: 2px;
+    font-weight: 300;
+}
 
 .postItem--btn{
     margin-top: 12px;

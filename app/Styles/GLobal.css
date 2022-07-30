@@ -59,8 +59,8 @@ a{
 }
 
 .paragraph{
-    font-weight: 300;
-    font-size: 14px;
+    font-weight: 400;
+    font-size: 15px;
     color: #646462;
 }
 
@@ -93,4 +93,20 @@ a{
     align-items: flex-start;
     justify-content: flex-start;
     flex-wrap: wrap;
+}
+
+.input{
+    padding: 5px 10px;
+    border: 1px solid #2d282d;
+    color: #2d282d;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: capitalize;
+    border-radius: 4px;
+    margin: 5px 0;
+    width: 100%;
+}
+
+.textarea{
+    min-height: 200px;
 }

@@ -66,12 +66,14 @@ export const Layout = (props:{
     <>
     <nav className='navbar'>
       <h1>
-        My Remix
+        <Link to='/' >
+          My Remix
+        </Link>
       </h1>
       <ul className='list-container list-inline'>
         <li className='list-item'>
-          <Link to='/posts' >
-            Posts
+          <Link to='/new-post' >
+            New Post
           </Link>
         </li>
       </ul>
@@ -81,5 +83,18 @@ export const Layout = (props:{
     </div>
     <Footer />
     </>
+  )
+}
+
+export function ErrorBoundary({error}) {
+  return (
+    <Document title='my react app'>
+       <h1>
+        error
+       </h1>
+       <p>
+        {error.message}
+       </p>
+    </Document>
   )
 }

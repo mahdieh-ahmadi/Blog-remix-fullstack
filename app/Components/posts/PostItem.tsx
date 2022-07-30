@@ -7,6 +7,7 @@ const PostItem = (props:{
     title:string,
     description: string,
     id:number | string
+    createdAt:Date
 }) => {
 
     return (
@@ -21,6 +22,9 @@ const PostItem = (props:{
             </h2>
             <p className='paragraph postItem--paragraph'>
                 {props.description}
+            </p>
+            <p className='paragraph postItem--time'>
+                {new Date(props.createdAt).toLocaleString()}
             </p>
             <Link to={`/posts/${props.id}`} >
                 <button className="btn postItem--btn">
